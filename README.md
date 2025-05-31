@@ -47,16 +47,62 @@ choice = ai.make_decision(["red", "blue", "green"])
 
 ## Examples
 
-The repository includes several examples in the main file:
-1. Learning numerical patterns
-2. Learning text patterns
-3. Making decisions
-4. Learning preferences with context
+The repository includes two ways to learn about the AI:
 
-Run the examples:
+1. **Basic Examples** in `simple_ai.py`:
+   - Learning numerical patterns
+   - Learning text patterns
+   - Making decisions
+   - Learning preferences with context
+
+2. **Detailed Examples** in `examples.py`:
+   - Example 1: Basic Learning and Prediction
+     - Shows how the AI learns numerical patterns
+     - Demonstrates prediction with known and unknown inputs
+   - Example 2: Text Learning
+     - Shows how the AI learns and processes text
+     - Demonstrates text pattern matching
+   - Example 3: Context-Aware Decision Making
+     - Shows how the AI makes decisions based on context
+     - Demonstrates weather and time-based decisions
+   - Example 4: Advanced Learning
+     - Shows how the AI handles multiple features
+     - Demonstrates complex scenario learning
+
+To run the detailed examples:
 ```bash
-python simple_ai.py
+python examples.py
 ```
+
+Each example includes:
+- Step-by-step explanations
+- Real-world use cases
+- Interactive demonstrations
+- Clear output formatting
+
+## How It Works
+
+The SimpleAI class implements several key AI concepts:
+
+1. **Learning System**
+   - Stores patterns in a knowledge base
+   - Can learn from both numerical and text data
+   - Maintains training data for reference
+
+2. **Prediction System**
+   - Makes predictions based on learned patterns
+   - Handles unknown inputs by finding closest matches
+   - Supports both exact and approximate matching
+
+3. **Decision Making**
+   - Makes context-aware decisions
+   - Can learn preferences for different situations
+   - Falls back to random choices for unknown contexts
+
+4. **Knowledge Management**
+   - Maintains a knowledge base of learned information
+   - Can retrieve and clear learned knowledge
+   - Supports multiple types of data
 
 ## Contributing
 

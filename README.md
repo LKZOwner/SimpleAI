@@ -47,7 +47,7 @@ choice = ai.make_decision(["red", "blue", "green"])
 
 ## Examples
 
-The repository includes two ways to learn about the AI:
+The repository includes three ways to learn about the AI:
 
 1. **Basic Examples** in `simple_ai.py`:
    - Learning numerical patterns
@@ -69,9 +69,27 @@ The repository includes two ways to learn about the AI:
      - Shows how the AI handles multiple features
      - Demonstrates complex scenario learning
 
-To run the detailed examples:
+3. **Practical Application** in `study_ai_example.py`:
+   - A real-world application: Study Advisor AI
+   - Features:
+     - Time-based study recommendations
+     - Subject-specific learning strategies
+     - Energy and focus-based advice
+     - Study plan selection
+     - Handling similar but not exact scenarios
+   - Perfect for students looking to optimize their study habits
+   - Demonstrates how to apply the AI to a specific domain
+
+To run the examples:
 ```bash
+# Run basic examples
+python simple_ai.py
+
+# Run detailed examples
 python examples.py
+
+# Run the study advisor example
+python study_ai_example.py
 ```
 
 Each example includes:
